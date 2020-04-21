@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="WebDev Tools" title="#delicinha" src=".assets/icon.svg" width="200px" />
+    <img alt="WebDev Tools" title="#delicinha" src="./assets/icon.svg" width="200px" />
 </h1>
 
 <h4 align="center">
@@ -39,15 +39,15 @@ Ferramentas utilizadas para desenvolvimento de aplicações diversas.
   - [x] Git - [Git Download](https://git-scm.com/)
   - [x] Github - [Github Website](https://github.com/)
 - [x] Windows;
-  - [x] Visual Studio Code Portable - [VSCode Portable](https://portapps.io/app/vscode-portable/)
-  - [x] Insomnia Portable - [Insomnia Portable](https://portapps.io/app/insomnia-portable/)
-  - [x] Postman Portable - [Postman Portable](https://portapps.io/app/postman-portable/)
-  - [x] Discord Portable - [Discord Portable](https://portapps.io/app/discord-portable/)
-  - [x] Skype Portable - [Skype Portable](https://portapps.io/app/skype-portable/)
+  - [x] Visual Studio Code - [VSCode Portable](https://portapps.io/app/vscode-portable/)
+  - [x] Insomnia - [Insomnia Portable](https://portapps.io/app/insomnia-portable/)
+  - [x] Postman - [Postman Portable](https://portapps.io/app/postman-portable/)
+  - [x] Discord - [Discord Portable](https://portapps.io/app/discord-portable/)
+  - [x] Skype - [Skype Portable](https://portapps.io/app/skype-portable/)
 - [x] PHP;
-  - [x] PHP - [PHP.net](https://www.php.net/)
-  - [x] WAMP - [Wamp Server](https://sourceforge.net/projects/wampserver/)
-  - [x] Composer - [Composer](https://getcomposer.org/)
+  - [x] PHP - [PHP Download](https://www.php.net/)
+  - [x] WAMP - [WampServer Download](https://sourceforge.net/projects/wampserver/)
+  - [x] Composer - [Composer Download](https://getcomposer.org/)
   - [x] Packagist - [Packagist](https://packagist.org/)
 - [x] Banco de Dados;
   - [x] MySQL - [MySQL Download](https://dev.mysql.com/downloads/installer/)
@@ -59,7 +59,7 @@ Ferramentas utilizadas para desenvolvimento de aplicações diversas.
 
 Ao trabalhar em ambiente Windows é possível utilizar aplicativos portáteis, sendo desnecessária instalação dos mesmos, evitando resíduos de instalação e lentidão do sistema operacional.
 
-## 🤔 Como contribuir
+## Como contribuir
 
 - Faça um fork desse repositório;
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
@@ -68,7 +68,7 @@ Ao trabalhar em ambiente Windows é possível utilizar aplicativos portáteis, s
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## :memo: Licença
+## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
