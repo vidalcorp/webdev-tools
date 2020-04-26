@@ -52,6 +52,9 @@ Ferramentas utilizadas para desenvolvimento de aplicações diversas.
   - [x] PostBird - [PostBird Download](https://www.electronjs.org/apps/postbird)
 - [x] Fontes TTF;
   - [x] Fira Code - [FiraCode Download](https://github.com/tonsky/FiraCode)
+- [x] Extensões do navegador (Chrome);
+  - [x] React Developer Tools - Ao inspecionar página mostra os componentes do React;
+  - [x] Dracula DevTools Theme - Deixa o inspecionar página (Developer Tools) no tema drácula;
 
 
 ## Projeto
