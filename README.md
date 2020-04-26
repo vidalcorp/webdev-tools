@@ -27,10 +27,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="WebDeb Tools" src=".assets/icon.svg" width="100%">
-</p>
-
 ## Ferramentas
 
 Ferramentas utilizadas para desenvolvimento de aplicações diversas.
@@ -54,6 +50,9 @@ Ferramentas utilizadas para desenvolvimento de aplicações diversas.
   - [x] MySQL Workbench - [Workbench Download](https://dev.mysql.com/downloads/workbench/)
   - [x] Postgres - [Postgres Download](https://www.postgresql.org/download/)
   - [x] PostBird - [PostBird Download](https://www.electronjs.org/apps/postbird)
+- [x] Fontes TTF;
+  - [x] Fira Code - [FiraCode Download](https://github.com/tonsky/FiraCode)
+
 
 ## Projeto
 
@@ -68,10 +67,46 @@ Ao trabalhar em ambiente Windows é possível utilizar aplicativos portáteis, s
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
+## Configuração do VSCode
+
+- [x] Instalar os seguintes plugins;
+  - [x] Dracula Theme - Tema escuro para o VSCode;
+  - [x] Material Icon Theme - Icones por tipo de arquivo;
+  - [x] Rocketseat ReactJS, React Native - Para trabalhar com ReactJS e React Native;
+  - [x] Color Highlight - Mostra cor ao digitar código hexadecimal;
+  - [x] Live Server - Auto Reload HTML Simples + CSS;
+  - [x] Live Share - Mostra cursor de outra pessoa trabalhando em tempo real no projeto;
+  - [x] Styled Components - Estilizar componentes no React e ReactNative;
+  - [x] GraphQL - snipets e validação dentre outros;
+  - [x] GitLens - Funcionalidades do Git Github;
+  - [x] ESLint - Padroniza códigos;
+  
+No VSCode pressionar os atalhos "Ctrl+Shift+P" pesquisar e abrir o arquivo Settings.json (Preferences: Open Setting JSON) e colar o conteúdo abaixo.
+
+`{
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.tabSize": 2,
+    "terminal.integrated.fontSize": 14,
+    "emmet.includeLanguages": {"javascript": "javascriptreat"},
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.parameterHints.enabled": false,
+    "breadcrumbs.enabled": true,
+    "javascript.suggest.autoImports": false
+}`
+
 ## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
-Feito com ♥ by Jefferson Vidal
+Feito com ♥ by [Jefferson Vidal](https://github.com/jeffersonvidal)
