@@ -61,6 +61,45 @@ Ferramentas utilizadas para desenvolvimento de aplicações diversas.
 
 Ao trabalhar em ambiente Windows é possível utilizar aplicativos portáteis, sendo desnecessária instalação dos mesmos, evitando resíduos de instalação e lentidão do sistema operacional.
 
+## Configurar ambiente Windows
+
+### Instalar gerenciador de pacotes Chocolatey
+
+- Abrir o Windows PowerShell como administrador e digite:
+```
+Get-ExecutionPolicy
+```
+- Caso o retorno desse comando seja diferente de “Restricted”, pule para o próximo passo. Porém, se o retorno for “Restricted”, execute o seguinte comando em seu terminal:
+```
+Set-ExecutionPolicy AllSigned
+```
+- Agora para instalar o Chocolatey digite: 
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+### Instalar NodeJS LTS
+
+- Para instalar o NodeJS LTS abra o Windows PowerShell como administrador e digite:
+```
+choco install -y nodejs-lts openjdk11
+```
+- Para verificar se foi instalaro corretamente reinice o Windows PowerShell e digite:
+```
+node -v
+npm -v
+```
+
+### Instalar Yarn
+
+- Para instalar o Yarn abra o Windows PowerShell como administrador e digite:
+```
+npm install --global yarn
+```
+- Para verificar se foi instalado corretamente digite:
+```
+yarn -v
+```
 ## Como contribuir
 
 - Faça um fork desse repositório;
